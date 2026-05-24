@@ -1,0 +1,25 @@
+{
+  "source_url": "https://raw.githubusercontent.com/openlibrecommunity/twl/refs/heads/main/code/scan/out/verify/verified.txt",
+  "scan_interval_seconds": 21600,
+  "output_file": "found_jitsi_domains.txt",
+  "details_file": "found_jitsi_details.tsv",
+  "state_file": "scanner_state.json",
+  "log_file": "jitsi_scanner.log",
+  "max_workers": 64,
+  "connect_timeout_seconds": 5,
+  "request_timeout_seconds": 8,
+  "verify_tls": false,
+  "probe_http": true,
+  "probe_https": true,
+  "require_domain_resolves_to_ip": true,
+  "force_probe_ip": true,
+  "follow_cross_host_redirects": false,
+  "user_agent": "jitsi-scanner-go/1.0",
+  "candidate_limit_per_ip": 80,
+  "jitsi_paths": [
+    "/",
+    "/config.js",
+    "/interface_config.js",
+    "/external_api.js"
+  ]
+}

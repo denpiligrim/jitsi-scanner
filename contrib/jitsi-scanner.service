@@ -1,0 +1,16 @@
+[Unit]
+Description=Jitsi domain scanner
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/jitsi-scanner
+ExecStart=/opt/jitsi-scanner/jitsi-scanner -config /opt/jitsi-scanner/config.json
+Restart=always
+RestartSec=15
+User=jitsi-scanner
+Group=jitsi-scanner
+
+[Install]
+WantedBy=multi-user.target

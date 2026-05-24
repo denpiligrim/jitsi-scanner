@@ -1,0 +1,7 @@
+config.json
+jitsi-scanner
+jitsi-scanner.exe
+found_jitsi_domains.txt
+found_jitsi_details.tsv
+scanner_state.json
+jitsi_scanner.log
