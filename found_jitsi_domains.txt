@@ -56,3 +56,4 @@ jitsi-meet.magnit.ru
 meet.cryptopro.ru
 meetings.iitrust.ru
 meeting.dks.lanit.ru
+meet1.arbitr.ru
